@@ -1,0 +1,122 @@
+strict digraph {
+	graph [
+		label = "Low Code Data Pipeline: Conceptual\n\n"
+		labelloc = t
+		fontname = "Helvetica,Arial,sans-serif"
+		fontsize = 20
+		layout = dot
+		rankdir = LR
+		newrank = true
+	]
+	node [
+		style=filled
+		shape=rect
+		pencolor="#00000044" // frames color
+		fontname="Helvetica,Arial,sans-serif"
+		shape=plaintext
+	]
+	edge [
+		arrowsize=0.5
+		fontname="Helvetica,Arial,sans-serif"
+		labeldistance=3
+		labelfontcolor="#00000080"
+		penwidth=2
+		style=dotted // dotted style symbolizes data transfer
+	]
+
+    Connect [
+		color="#9243f8"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Connect</b> : tapir </td> </tr>
+			<tr> <td align="left">db name</td> </tr>
+			<tr> <td align="left">db host</td> </tr>
+			<tr> <td align="left">db port</td> </tr>
+		    </table>
+            >
+		shape=plain
+	]
+
+	Columns [
+		shape=record
+		label="<c1>Table: artist|<c2>song|<c3>artist|<c4>genre|<c5>downloads"
+		]
+	GroupByGenre [
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td>Group By: genre</td> </tr>
+			<tr><td align="left">downloads</td></tr>
+		</table>>
+		fillcolor="#1f77b466"
+		]
+	GroupByArtist [
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td>Group By: artist</td> </tr>
+			<tr><td align="left">downloads</td></tr>
+		</table>>
+		fillcolor="#1f77b466"
+		style="filled"
+	]
+	CountSongs [
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td>Count: song</td> </tr>
+			<tr><td align="left">song</td></tr>
+		</table>>
+		fillcolor="#3fa7e4"
+		]
+    SaveArtist [
+		color="#b8030042"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Save</b><br/>tapir : artist</td> </tr>
+			<tr> <td align="left">db name</td></tr>
+			<tr> <td align="left">db host</td></tr>
+			<tr> <td align="left">db port</td></tr>
+		    </table>
+            >
+		shape=plain
+	]
+    SaveGenre [
+		color="#b8030042"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Save</b><br/>tapir : genre</td> </tr>
+			<tr> <td align="left">db name</td></tr>
+			<tr> <td align="left">db host</td></tr>
+			<tr> <td align="left">db port</td></tr>
+		    </table>
+            >
+		shape=plain
+	]
+	SaveSong [
+		color="#b8030072"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Save</b><br/>tapir : total_songs</td> </tr>
+			<tr> <td align="left">db name</td></tr>
+			<tr> <td align="left">db host</td></tr>
+			<tr> <td align="left">db port</td></tr>
+		    </table>
+            >
+		shape=plain
+	]
+	MapArtist [
+		color="#00880022"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Map</b></td> </tr>
+			<tr> <td align="left">tapir - artist</td></tr>
+			<tr> <td align="left">ontology - artist</td></tr>
+		    </table>
+            >
+		shape=plain
+	]
+	MapGenre [
+		color="#00880022"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Map</b></td> </tr>
+			<tr> <td align="left">tapir - genre</td></tr>
+			<tr> <td align="left">ontology - genre</td></tr>
+		    </table>
+            >
+		shape=plain
+	]
+    Connect -> Columns [fillcolor="#a6cee3" color="#1f78b4"]
+	Columns:c3 -> GroupByArtist -> SaveArtist -> MapArtist
+	Columns:c4 -> GroupByGenre -> SaveGenre -> MapGenre
+	Columns:c2 -> CountSongs -> SaveSong
+}

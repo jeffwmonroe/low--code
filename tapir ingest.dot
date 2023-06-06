@@ -1,0 +1,58 @@
+strict digraph {
+	graph [
+		label = "Low Code Data Pipeline: example for Ingest Tapir\n\n"
+		labelloc = t
+		fontname = "Helvetica,Arial,sans-serif"
+		fontsize = 20
+		layout = dot
+		rankdir = LR
+		newrank = true
+	]
+	node [
+		style=filled
+		shape=rect
+		pencolor="#00000044" // frames color
+		fontname="Helvetica,Arial,sans-serif"
+		shape=plaintext
+	]
+	edge [
+		arrowsize=0.5
+		fontname="Helvetica,Arial,sans-serif"
+		labeldistance=3
+		labelfontcolor="#00000080"
+		penwidth=2
+		style=dotted // dotted style symbolizes data transfer
+	]
+
+    Connect [
+		color="#1f78b4"
+        fillcolor="#a6cee3"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Connect</b> : tapir </td> </tr>
+			<tr> <td align="left">db name</td> </tr>
+			<tr> <td align="left">db host</td> </tr>
+			<tr> <td align="left">db port</td> </tr>
+		    </table>
+            >
+		shape=plain
+	]
+
+	Columns [
+		shape=record
+		label="<c1>Table: show|<c2>episode|<c3>imdb_id|<c4>geodata|<c5>country_code|<c6>ts"
+		]
+
+    SaveShow [
+		color="#b8030042"
+		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+			<tr> <td> <b>Save</b><br/>tapir : show </td> </tr>
+			<tr> <td align="left">db name</td></tr>
+			<tr> <td align="left">db host</td></tr>
+			<tr> <td align="left">db port</td></tr>
+		    </table>
+            >
+		shape=plain
+	]
+
+    Connect -> Columns -> SaveShow
+}
