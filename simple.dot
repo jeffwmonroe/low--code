@@ -116,7 +116,7 @@ strict digraph {
 		shape=plain
 	]
     Connect -> Columns [fillcolor="#a6cee3" color="#1f78b4"]
-	Columns:c3 -> GroupByArtist -> SaveArtist -> MapArtist
-	Columns:c4 -> GroupByGenre -> SaveGenre -> MapGenre
+	Columns:c3 -> SaveArtist -> GroupByArtist -> MapArtist
+	Columns:c4 -> SaveGenre ->GroupByGenre ->  MapGenre
 	Columns:c2 -> CountSongs -> SaveSong
 }
