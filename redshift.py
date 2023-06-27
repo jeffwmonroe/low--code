@@ -1,5 +1,4 @@
 import sqlalchemy as sqla
-import psycopg2
 
 # ToDo build these into environment variables or pass them as parameters
 dialect = "postgresql"
@@ -23,7 +22,7 @@ url = f"{dialect}+{driver}://{user}:{password}@{host}:{port}/{name}"
 #                             port=port,
 #                             user=user,
 #                             password=password)
-# except Exception as err:
+# except Excep
 #     print('error connection')
 
 print(f'url = {url}')
@@ -54,7 +53,7 @@ metadata_obj.reflect(bind=engine,
                      only=table_loader)
 
 # metadata_obj.reflect(bind=engine)
-print('-'*50)
+print('-' * 50)
 # print(metadata_obj.tables.items())
 for tab in metadata_obj.tables.values():
     print(f'table = {tab.name}')
