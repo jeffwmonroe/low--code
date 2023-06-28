@@ -128,3 +128,4 @@ dmypy.json
 
 # environment file for dev builds
 .dev_env
+.sqlalchemy_cache
