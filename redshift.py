@@ -1,14 +1,16 @@
 import pandas as pd
 import sqlalchemy as sqla
+import time
 import os
 import pickle
 
 
 # ToDo build these into environment variables or pass them as parameters
 def redshift():
-    dialect = "redshift"
-    # driver = "psycopg2"
-    driver = "redshift_connector"
+    # dialect = "redshift"
+    dialect = "postgresql"
+    driver = "psycopg2"
+    # driver = "redshift_connector"
 
     user = "mscience"
     password = "Xo77BkAr2t9zxzsf38G9QEWF"
@@ -69,67 +71,7 @@ with engine.connect() as conn:
     print("Successful login. Database exists. Connection good...")
 
 
-# metadata_pickle_filename = "mydb_metadata"
-# cache_path = ".sqlalchemy_cache"
-# print(f'cache_path = {cache_path}')
-#
-# metadata_obj = None
-# if os.path.exists(cache_path):
-#     try:
-#         with open(os.path.join(cache_path, metadata_pickle_filename), 'rb') as cache_file:
-#             print(f'Loading metadata from cache')
-#             metadata_obj = pickle.load(file=cache_file)
-#             metadata_obj.bind(engine)
-#             print('cache loaded')
-#     except:
-#         # cache file not found - no problem, reflect as usual
-#         print('Cache file not found')
-#         pass
-#
-# hack = 0
-
-
-def table_loader(table_name, metadata_obj) -> bool:
-    global hack
-    print(f'loading: {table_name}')
-    hack = hack + 1
-    return hack <= 10
-
-
-#
-# if metadata_obj is None:
-#     print('loading metadata')
-#     metadata_obj = sqla.MetaData(schema='carc_data')
-#
-#     metadata_obj.reflect(bind=engine,
-#                          views=True,
-#                          resolve_fks=False,
-#                          )
-#
-#     # save the metadata for future runs
-#     try:
-#         if not os.path.exists(cache_path):
-#             os.makedirs(cache_path)
-#         # make sure to open in binary mode - we're writing bytes, not str
-#         with open(os.path.join(cache_path, metadata_pickle_filename), 'wb') as cache_file:
-#             pickle.dump(metadata_obj, cache_file)
-#     except:
-#         # couldn't write the file for some reason
-#         print('could not write meta data')
-#         pass
-
-# metadata_obj.reflect(bind=engine)
 print('-' * 50)
-# print(metadata_obj.tables.items())
-# for tab in metadata_obj.tables.values():
-#     print(f'table = {tab.name}')
-#     table = metadata_obj.tables['carc_data.' + tab.name]
-#     print(f'   num cols = {len(table.columns)}')
-#     for col in table.columns:
-#         print(f'   col = {col.name}')
-#         print(f'      col type= {col.type}')
-
-#     # self.metadata_obj = sqla.MetaData(schema=self.schema)
 
 data_list = [{'table_name': 'concert_event_estimate_and_actuals',
               'column_name': 'artist_name',
@@ -150,25 +92,32 @@ data_list = [{'table_name': 'concert_event_estimate_and_actuals',
 
 
 def get_data(engine, metadata, data):
+    print('-' * 50)
     print(f'get_data: {data}')
     table = sqla.Table(data['table_name'], metadata, autoload_with=engine)
+    print(f"   number of columns: {len(table.c.keys())}")
+    for col in table.c.keys():
+        print(f'   col = {col}')
     # table = metadata.tables[data['table_name']]
     stmt = (sqla.select(table.c[data['column_name']])
-            .group_by(table.c[data['column_name']])
+            # .group_by(table.c[data['column_name']])
             .filter(table.c[data['column_name']] != None))
+    print(f'stmt:   {stmt}')
+    start = time.time()
     with engine.connect() as conn:
         result = conn.execute(stmt)
         row_list: list[dict[str, str | int]] = [row._asdict() for row in result]
-
+    end = time.time()
+    print(f'query time: {end-start}')
     print('-' * 50)
     print('row_list')
-    print(f'len = {len(row_list)}')
+    print(f'   len = {len(row_list)}')
     first = row_list[0]
     count = 0
     for row in row_list:
         print(f'row = {row}')
         count = count + 1
-        if count > 20:
+        if count > 5:
             break
     return row_list
 
@@ -207,7 +156,8 @@ ontology_metadata = sqla.MetaData(schema='ontology')
 
 metadata = sqla.MetaData(schema='carc_data')
 for data in data_list:
+    print(f'data = {data}')
     row_list = get_data(engine, metadata, data)
     values = [{'external_name': row[data['column_name']], 'external_id': row[data['column_name']]} for row in row_list]
-    put_data(ontology_engine, ontology_metadata, data, values)
+    # put_data(ontology_engine, ontology_metadata, data, values)
     # put_data_excel(data, values)
