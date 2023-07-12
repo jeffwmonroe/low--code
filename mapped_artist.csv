@@ -1,0 +1,935 @@
+,external_id,external_name,entity_id,name,confidence
+0,Alan Jackson,Alan Jackson,1288,Alan Jackson,100.0
+1,The Offspring,The Offspring,1255,The Offspring,100.0
+2,Johnny Cash,Johnny Cash,1285,Johnny Cash,100.0
+3,Ricardo Arjona,Ricardo Arjona,1314,Ricardo Arjona,100.0
+4,The Cult,The Cult,1461,The Cure,75.0
+5,Joan Sebastian,Joan Sebastian,1345,Joan Sebastian,100.0
+6,KISS,KISS,1480,KISS,100.0
+7,The Strokes,The Strokes,1264,The Strokes,100.0
+8,David Bowie,David Bowie,1283,David Bowie,100.0
+9,Mira,Mira,1359,Mora,75.0
+10,Maroons,Maroons,1034,Maroon 5,75.0
+11,Eminem,Eminem,1008,Eminem,100.0
+12,The Corrs,The Corrs,1488,The Doors,77.77777777777779
+13,The Roots,The Roots,1488,The Doors,77.77777777777779
+14,Big Star,Big Star,1333,Big Sean,75.0
+15,Journey,Journey,1196,Journey,100.0
+16,Lynyrd Skynyrd,Lynyrd Skynyrd,1281,Lynyrd Skynyrd,100.0
+17,Toby Keith,Toby Keith,1458,Toby Keith,100.0
+18,System Of A Down,System Of A Down,1161,System Of A Down,100.0
+19,Mariah Carey,Mariah Carey,1209,Mariah Carey,100.0
+20,Oasis,Oasis,1294,Oasis,100.0
+21,Dr. Dre,Dr. Dre,1147,Dr. Dre,100.0
+22,Deftones,Deftones,1254,Deftones,100.0
+23,Destiny's Child,Destiny's Child,1428,Destiny's Child,100.0
+24,Rascal Flatts,Rascal Flatts,1443,Rascal Flatts,100.0
+25,Black Sabbath,Black Sabbath,1471,Black Sabbath,100.0
+26,Britney Spears,Britney Spears,1129,Britney Spears,100.0
+27,Metallica,Metallica,1063,Metallica,100.0
+28,Marc Anthony,Marc Anthony,1370,Marc Anthony,100.0
+29,Papa Roach,Papa Roach,1435,Papa Roach,100.0
+30,Red Hot Chili Peppers,Red Hot Chili Peppers,1050,Red Hot Chili Peppers,100.0
+31,Alejandro Fernández,Alejandro Fernández,1421,Alejandro Fernández,100.0
+32,Radiohead,Radiohead,1155,Radiohead,100.0
+33,Jack Johnson,Jack Johnson,1204,Jack Johnson,100.0
+34,Jason Mraz,Jason Mraz,1472,Jason Mraz,100.0
+35,The Dames,The Dames,1473,The Game,75.0
+36,Foo Fighters,Foo Fighters,1156,Foo Fighters,100.0
+37,My Chemical Romance,My Chemical Romance,1167,My Chemical Romance,100.0
+38,P!nk,P!nk,1162,P!nk,100.0
+39,Shinedown,Shinedown,1290,Shinedown,100.0
+40,Phil Collins,Phil Collins,1291,Phil Collins,100.0
+41,The Pale,The Pale,1473,The Game,75.0
+42,Tears For Fears,Tears For Fears,1433,Tears For Fears,100.0
+43,Bruce Springsteen,Bruce Springsteen,1311,Bruce Springsteen,100.0
+44,Three Days Grace,Three Days Grace,1210,Three Days Grace,100.0
+45,Evanescence,Evanescence,1495,Evanescence,100.0
+46,Van Hunt,Van Hunt,1270,Sam Hunt,75.0
+47,Muse,Muse,1282,Muse,100.0
+48,Miggs,Miggs,1201,Migos,80.0
+49,The Wilders,The Wilders,1424,The Walters,81.81818181818181
+50,Porn,Porn,1300,Korn,75.0
+51,Steve Lucky,Steve Lucky,1075,Steve Lacy,80.0
+52,Guns N' Roses,Guns N' Roses,1107,Guns N' Roses,100.0
+53,George Michael,George Michael,1456,George Michael,100.0
+54,The Spores,The Spores,1494,The Score,77.77777777777779
+55,Jason Moran,Jason Moran,1472,Jason Mraz,80.0
+56,David Guetta,David Guetta,1328,David Guetta,100.0
+57,Cage The Elephant,Cage The Elephant,1245,Cage The Elephant,100.0
+58,Beatallica,Beatallica,1063,Metallica,77.77777777777779
+59,Pitbull,Pitbull,1164,Pitbull,100.0
+60,Matamore,Matamore,1178,Paramore,75.0
+61,The Neighborhoods,The Neighborhoods,1044,The Neighbourhood,88.23529411764706
+62,Baby Dee,Baby Dee,1198,Baby Keem,77.77777777777779
+63,Dr. Dog,Dr. Dog,1147,Dr. Dre,71.42857142857143
+64,Future.,Future.,1018,Future,83.33333333333334
+65,Jon Paris,Jon Paris,1238,Jon Pardi,77.77777777777779
+66,Sean Smith,Sean Smith,1084,Sam Smith,77.77777777777779
+67,Mumford & Sons,Mumford & Sons,1387,Mumford & Sons,100.0
+68,DJ Savage,DJ Savage,1348,21 Savage,77.77777777777779
+69,Lil Wyte,Lil Wyte,1068,Lil Wayne,77.77777777777779
+70,The Moops,The Moops,1488,The Doors,77.77777777777779
+71,Drake,Drake,1002,Drake,100.0
+72,Nicki Minaj,Nicki Minaj,1067,Nicki Minaj,100.0
+73,The Scene,The Scene,1494,The Score,77.77777777777779
+74,Ellie Goulding,Ellie Goulding,1310,Ellie Goulding,100.0
+75,Dan Gabriel,Dan Gabriel,1466,Juan Gabriel,83.33333333333334
+76,Elley Duhe,Elley Duhe,1390,Elley Duhé,90.0
+77,Tame Impala,Tame Impala,1113,Tame Impala,100.0
+78,Skylime,Skylime,1372,Sublime,71.42857142857143
+79,Back Sabbath,Back Sabbath,1471,Black Sabbath,92.3076923076923
+80,Skrillex,Skrillex,1362,Skillet,71.42857142857143
+81,Futures,Futures,1018,Future,83.33333333333334
+82,The Tellers,The Tellers,1182,The Killers,81.81818181818181
+83,Manna,Manna,1235,Madonna,71.42857142857143
+84,Miguel,Miguel,1389,Miguel,100.0
+85,Big Sean,Big Sean,1333,Big Sean,100.0
+86,The Rolling Stones,The Rolling Stones,1131,The Rolling Stones,100.0
+87,Mötley Crüe,Mötley Crüe,1417,Mötley Crüe,100.0
+88,Whitney Houston,Whitney Houston,1296,Whitney Houston,100.0
+89,Tim McGraw,Tim McGraw,1260,Tim McGraw,100.0
+90,Limp Bizkit,Limp Bizkit,1398,Limp Bizkit,100.0
+91,Maná,Maná,1351,Maná,100.0
+92,Billy Joel,Billy Joel,1149,Billy Joel,100.0
+93,Van Morrison,Van Morrison,1395,Van Morrison,100.0
+94,Kevin James,Kevin James,1077,Kevin Gates,81.81818181818181
+95,Green Day,Green Day,1114,Green Day,100.0
+96,Nelly Furtado,Nelly Furtado,1376,Nelly Furtado,100.0
+97,Gorillaz,Gorillaz,1144,Gorillaz,100.0
+98,Basile,Basile,1412,Bastille,75.0
+99,Machine Gun Kelly,Machine Gun Kelly,1109,Machine Gun Kelly,100.0
+100,Ed Sheeran,Ed Sheeran,1007,Ed Sheeran,100.0
+101,Romeo Santos,Romeo Santos,1215,Romeo Santos,100.0
+102,Willow,Willow,1419,Wallows,71.42857142857143
+103,The Weeknd,The Weeknd,1003,The Weeknd,100.0
+104,Celine Dion,Celine Dion,1375,Céline Dion,90.9090909090909
+105,Def Leppard,Def Leppard,1467,Def Leppard,100.0
+106,Backstreet Boys,Backstreet Boys,1292,Backstreet Boys,100.0
+107,Blink-182,Blink-182,1193,blink-182,88.88888888888889
+108,Luis Miguel,Luis Miguel,1148,Luis Miguel,100.0
+109,Shakira,Shakira,1227,Shakira,100.0
+110,The Cure,The Cure,1461,The Cure,100.0
+111,The Wailers,The Wailers,1424,The Walters,81.81818181818181
+112,John Mayer,John Mayer,1143,John Mayer,100.0
+113,Nelly,Nelly,1319,Nelly,100.0
+114,Sunna,Sunna,1054,Gunna,80.0
+115,Ryan Adams,Ryan Adams,1352,Bryan Adams,81.81818181818181
+116,Avenged Sevenfold,Avenged Sevenfold,1318,Avenged Sevenfold,100.0
+117,Avril Lavigne,Avril Lavigne,1185,Avril Lavigne,100.0
+118,The Goods,The Goods,1488,The Doors,77.77777777777779
+119,The 1975,The 1975,1308,The 1975,100.0
+120,Dustin Lynch,Dustin Lynch,1436,Dustin Lynch,100.0
+121,Michael Bublé,Michael Bublé,1327,Michael Bublé,100.0
+122,Fall Out Boy,Fall Out Boy,1135,Fall Out Boy,100.0
+123,Skillet,Skillet,1362,Skillet,100.0
+124,Zac Brown Band,Zac Brown Band,1267,Zac Brown Band,100.0
+125,The Books,The Books,1488,The Doors,77.77777777777779
+126,Ne-Yo,Ne-Yo,1335,Ne-Yo,100.0
+127,Alice In Chains,Alice In Chains,1409,Alice In Chains,100.0
+128,Carrie Underwood,Carrie Underwood,1280,Carrie Underwood,100.0
+129,Eric Church,Eric Church,1225,Eric Church,100.0
+130,Plan B ,Plan B ,1469,Plan B,83.33333333333334
+131,The Slits,The Slits,1397,The Smiths,80.0
+132,Justin Timberlake,Justin Timberlake,1243,Justin Timberlake,100.0
+133,Bones,Bones,1385,Bones,100.0
+134,Pink Droyd,Pink Droyd,1122,Pink Floyd,80.0
+135,The Washers,The Washers,1424,The Walters,81.81818181818181
+136,Manu,Manu,1351,Maná,75.0
+137,Kingston,Kingston,1106,King Von,75.0
+138,Vance Joy,Vance Joy,1237,Vance Joy,100.0
+139,Tove Lo,Tove Lo,1462,Tove Lo,100.0
+140,The Beaches,The Beaches,1027,The Beatles,81.81818181818181
+141,Meghan Trainor,Meghan Trainor,1293,Meghan Trainor,100.0
+142,Mitski,Mitski,1087,Mitski,100.0
+143,Blackbear,Blackbear,1228,blackbear,88.88888888888889
+144,Halsey,Halsey,1089,Halsey,100.0
+145,David Boies,David Boies,1283,David Bowie,81.81818181818181
+146,Kelsea Ballerini,Kelsea Ballerini,1438,Kelsea Ballerini,100.0
+147,Cairo,Cairo,1261,Clairo,83.33333333333334
+148,Little Man,Little Man,1250,Little Mix,80.0
+149,Calvin Harris,Calvin Harris,1273,Calvin Harris,100.0
+150,Jay Chou,Jay Chou,1277,Jay Chou,100.0
+151,The Script,The Script,1381,The Script,100.0
+152,Bryan Adams,Bryan Adams,1352,Bryan Adams,100.0
+153,George Strait,George Strait,1192,George Strait,100.0
+154,Disturbed,Disturbed,1276,Disturbed,100.0
+155,Weezer,Weezer,1262,Weezer,100.0
+156,Pearl Jam,Pearl Jam,1278,Pearl Jam,100.0
+157,Juan Gabriel,Juan Gabriel,1466,Juan Gabriel,100.0
+158,Linkin Park,Linkin Park,1058,Linkin Park,100.0
+159,Madonna,Madonna,1235,Madonna,100.0
+160,Tool,Tool,1434,Tool,100.0
+161,Alicia Keys,Alicia Keys,1251,Alicia Keys,100.0
+162,Van Halen,Van Halen,1346,Van Halen,100.0
+163,The Dears,The Dears,1488,The Doors,77.77777777777779
+164,Kelly Clarkson,Kelly Clarkson,1360,Kelly Clarkson,100.0
+165,Breaking Benjamin,Breaking Benjamin,1384,Breaking Benjamin,100.0
+166,The Earlies,The Earlies,1142,The Eagles,80.0
+167,The Sword,The Sword,1494,The Score,77.77777777777779
+168,Panic! At The Disco,Panic! At The Disco,1098,Panic! At The Disco,100.0
+169,Amy Winehouse,Amy Winehouse,1382,Amy Winehouse,100.0
+170,The Game,The Game,1473,The Game,100.0
+171,Gallows,Gallows,1419,Wallows,85.71428571428572
+172,The Core,The Core,1461,The Cure,87.5
+173,Bring Me The Horizon,Bring Me The Horizon,1242,Bring Me The Horizon,100.0
+174,Jennifer Lopez,Jennifer Lopez,1408,Jennifer Lopez,100.0
+175,Jeremih,Jeremih,1470,Jeremih,100.0
+176,G Herbo,G Herbo,1449,G Herbo,100.0
+177,Young Dolph,Young Dolph,1191,Young Dolph,100.0
+178,Dua Lipa,Dua Lipa,1037,Dua Lipa,100.0
+179,Mute,Mute,1282,Muse,75.0
+180,LANY,LANY,1404,LANY,100.0
+181,Shania Twin,Shania Twin,1396,Shania Twain,91.66666666666666
+182,Buck Johnson,Buck Johnson,1204,Jack Johnson,83.33333333333334
+183,Ruth B,Ruth B,1432,Ruth B.,85.71428571428572
+184,Morat,Morat,1359,Mora,75.0
+185,Niall Horan,Niall Horan,1430,Niall Horan,100.0
+186,The Jamm,The Jamm,1473,The Game,75.0
+187,Kid Cudi,Kid Cudi,1078,Kid Cudi,100.0
+188,Lord Huron,Lord Huron,1377,Lord Huron,100.0
+189,Mann,Mann,1351,Maná,75.0
+190,Walls,Walls,1419,Wallows,71.42857142857143
+191,The Make,The Make,1473,The Game,75.0
+192,The Strikers,The Strikers,1264,The Strokes,81.81818181818181
+193,Meek Mill,Meek Mill,1286,Meek Mill,100.0
+194,Lizzo,Lizzo,1108,Lizzo,100.0
+195,The Welch Boys,The Welch Boys,1371,The Beach Boys,85.71428571428572
+196,5 Seconds Of Summer,5 Seconds Of Summer,1119,5 Seconds of Summer,94.73684210526316
+197,Hozier,Hozier,1202,Hozier,100.0
+198,Sam Holt,Sam Holt,1270,Sam Hunt,75.0
+199,Koe Wetzel,Koe Wetzel,1411,Koe Wetzel,100.0
+200,Seventeen,Seventeen,1179,Seventeen,100.0
+201,A. Savage,A. Savage,1348,21 Savage,77.77777777777779
+202,Billie Eilish,Billie Eilish,1011,Billie Eilish,100.0
+203,Cardi B,Cardi B,1349,Cardi B,100.0
+204,H.E.R.,H.E.R.,1306,H.E.R.,100.0
+205,Cody Johns,Cody Johns,1173,Cody Johnson,83.33333333333334
+206,Shakedown,Shakedown,1290,Shinedown,77.77777777777779
+207,Beyond,Beyond,1029,Beyoncé,71.42857142857143
+208,Guns 2 Roses,Guns 2 Roses,1107,Guns N' Roses,84.61538461538461
+209,Felly,Felly,1319,Nelly,80.0
+210,The Names,The Names,1473,The Game,75.0
+211,Khalid,Khalid,1105,Khalid,100.0
+212,TV Girl,TV Girl,1457,TV Girl,100.0
+213,Bryson Tiller,Bryson Tiller,1186,Bryson Tiller,100.0
+214,The Score,The Score,1494,The Score,100.0
+215,Lil Peep,Lil Peep,1082,Lil Peep,100.0
+216,Chase Atlantic,Chase Atlantic,1146,Chase Atlantic,100.0
+217,Anuel AA,Anuel AA,1112,Anuel AA,100.0
+218,Gunna,Gunna,1054,Gunna,100.0
+219,Lil Tjay,Lil Tjay,1093,Lil Tjay,100.0
+220,Labyrinth,Labyrinth,1136,Labrinth,87.5
+221,Steve Lacy,Steve Lacy,1075,Steve Lacy,100.0
+222,Phoebe Bridgers,Phoebe Bridgers,1406,Phoebe Bridgers,100.0
+223,Moneybagg Yo,Moneybagg Yo,1130,Moneybagg Yo,100.0
+224,Juice WRLD,Juice WRLD,1010,Juice WRLD,100.0
+225,Marilia Mendonca,Marilia Mendonca,1152,Marília Mendonça,87.5
+226,Tones And I,Tones And I,1331,Tones And I,100.0
+227,Oliver Tree,Oliver Tree,1391,Oliver Tree,100.0
+228,YNW Melly,YNW Melly,1212,YNW Melly,100.0
+229,Christian Nodal,Christian Nodal,1168,Christian Nodal,100.0
+230,Jeremias,Jeremias,1470,Jeremih,71.42857142857143
+231,Los Dos Carnales,Los Dos Carnales,1493,Los Dos Carnales,100.0
+232,GAYLE,GAYLE,1189,GAYLE,100.0
+233,Tai Verdes,Tai Verdes,1474,Tai Verdes,100.0
+234,Natanael Cano,Natanael Cano,1347,Natanael Cano,100.0
+235,Telly,Telly,1319,Nelly,80.0
+236,Jane Arthur,Jane Arthur,1169,James Arthur,83.33333333333334
+237,Sam Hui,Sam Hui,1270,Sam Hunt,75.0
+238,The Hours,The Hours,1488,The Doors,77.77777777777779
+239,The Scare,The Scare,1494,The Score,88.88888888888889
+240,The Camp,The Camp,1473,The Game,75.0
+241,Polo G,Polo G,1043,Polo G,100.0
+242,Lil Keed,Lil Keed,1082,Lil Peep,75.0
+243,James Young,James Young,1320,Jaymes Young,91.66666666666666
+244,The Loons,The Loons,1488,The Doors,77.77777777777779
+245,Sy Smith,Sy Smith,1084,Sam Smith,77.77777777777779
+246,Jordan Davis,Jordan Davis,1284,Jordan Davis,100.0
+247,Saweetie,Saweetie,1475,Saweetie,100.0
+248,Jack Harlow,Jack Harlow,1032,Jack Harlow,100.0
+249,Myke Towers,Myke Towers,1252,Myke Towers,100.0
+250,Los Bukis,Los Bukis,1455,Los Bukis,100.0
+251,Zach Bryan,Zach Bryan,1062,Zach Bryan,100.0
+252,Olivia Rodrigo,Olivia Rodrigo,1021,Olivia Rodrigo,100.0
+253,Feid,Feid,1263,Feid,100.0
+254,Carin Leon,Carin Leon,1307,Carin Leon,100.0
+255,Marc Muller,Marc Muller,1040,Mac Miller,80.0
+256,Lil Tecca,Lil Tecca,1190,Lil Tecca,100.0
+257,Nardo Wick,Nardo Wick,1446,Nardo Wick,100.0
+258,Kevin Kaarl,Kevin Kaarl,1269,Kevin Kaarl,100.0
+259,Too Fighters,Too Fighters,1156,Foo Fighters,91.66666666666666
+260,Duki,Duki,1221,Duki,100.0
+261,Khaled,Khaled,1105,Khalid,83.33333333333334
+262,Lords,Lords,1187,Lorde,80.0
+263,MGMT,MGMT,1444,MGMT,100.0
+264,Katy Perry,Katy Perry,1059,Katy Perry,100.0
+265,Aerosmith,Aerosmith,1229,Aerosmith,100.0
+266,Korn,Korn,1300,Korn,100.0
+267,Elton John,Elton John,1099,Elton John,100.0
+268,Train,Train,1366,Train,100.0
+269,Kenny Chesney,Kenny Chesney,1256,Kenny Chesney,100.0
+270,3 Doors Down,3 Doors Down,1486,3 Doors Down,100.0
+271,Mary J. Blige,Mary J. Blige,1380,Mary J. Blige,100.0
+272,Los Temerarios,Los Temerarios,1329,Los Temerarios,100.0
+273,Outkast,Outkast,1234,Outkast,100.0
+274,Stevie Wonder,Stevie Wonder,1274,Stevie Wonder,100.0
+275,Los Tigres Del Norte,Los Tigres Del Norte,1353,Los Tigres Del Norte,100.0
+276,The Kills,The Kills,1182,The Killers,81.81818181818181
+277,Scorpions,Scorpions,1497,Scorpions,100.0
+278,Kings Of Leon,Kings Of Leon,1312,Kings of Leon,92.3076923076923
+279,Kanye West,Kanye West,1005,Kanye West,100.0
+280,Plan 9,Plan 9,1469,Plan B,83.33333333333334
+281,The Woovs,The Woovs,1488,The Doors,77.77777777777779
+282,The Betties,The Betties,1027,The Beatles,81.81818181818181
+283,Falling In Reverse,Falling In Reverse,1425,Falling In Reverse,100.0
+284,TV Killers,TV Killers,1182,The Killers,81.81818181818181
+285,Big Skin,Big Skin,1333,Big Sean,75.0
+286,The Ruse,The Ruse,1461,The Cure,75.0
+287,The Time,The Time,1473,The Game,75.0
+288,Lorn,Lorn,1300,Korn,75.0
+289,Lianna,Lianna,1020,Rihanna,71.42857142857143
+290,Big Bear,Big Bear,1333,Big Sean,75.0
+291,The Killer,The Killer,1182,The Killers,90.9090909090909
+292,Death House,Death House,1420,Beach House,81.81818181818181
+293,Kid Wave,Kid Wave,1028,Rod Wave,75.0
+294,The Milers,The Milers,1182,The Killers,81.81818181818181
+295,Enrique Iglesias,Enrique Iglesias,1289,Enrique Iglesias,100.0
+296,Shania Twain,Shania Twain,1396,Shania Twain,100.0
+297,The Beach Boys,The Beach Boys,1371,The Beach Boys,100.0
+298,The Smashing Pumpkins,The Smashing Pumpkins,1453,The Smashing Pumpkins,100.0
+299,Nickelback,Nickelback,1184,Nickelback,100.0
+300,Rammstein,Rammstein,1170,Rammstein,100.0
+301,Rage Against the Machine,Rage Against the Machine,1442,Rage Against The Machine,95.83333333333334
+302,Slipknot,Slipknot,1151,Slipknot,100.0
+303,Bon Jovi,Bon Jovi,1171,Bon Jovi,100.0
+304,AC/DC,AC/DC,1064,AC/DC,100.0
+305,Eagles,Eagles,1141,Eagles,100.0
+306,Snoop Dogg,Snoop Dogg,1415,Snoop Dogg,100.0
+307,Money Mark,Money Mark,1386,Money Man,77.77777777777779
+308,Coldplay,Coldplay,1030,Coldplay,100.0
+309,50 Cent,50 Cent,1085,50 Cent,100.0
+310,Dierks Bentley,Dierks Bentley,1373,Dierks Bentley,100.0
+311,The Kissers,The Kissers,1182,The Killers,81.81818181818181
+312,Miranda Lambert,Miranda Lambert,1268,Miranda Lambert,100.0
+313,Paramore,Paramore,1178,Paramore,100.0
+314,Bad Penny,Bad Penny,1000,Bad Bunny,77.77777777777779
+315,Van Heaven,Van Heaven,1346,Van Halen,77.77777777777779
+316,Led Zeppelin,Led Zeppelin,1138,Led Zeppelin,100.0
+317,Weener,Weener,1262,Weezer,83.33333333333334
+318,Shira,Shira,1227,Shakira,71.42857142857143
+319,The Curve,The Curve,1461,The Cure,87.5
+320,The Weekend,The Weekend,1003,The Weeknd,90.0
+321,David Bode,David Bode,1283,David Bowie,81.81818181818181
+322,Lotic,Lotic,1220,Logic,80.0
+323,Fleetwood Mac,Fleetwood Mac,1071,Fleetwood Mac,100.0
+324,Daddy Yankee,Daddy Yankee,1116,Daddy Yankee,100.0
+325,OneRepublic,OneRepublic,1055,OneRepublic,100.0
+326,Chris Brown,Chris Brown,1066,Chris Brown,100.0
+327,Sia,Sia,1103,Sia,100.0
+328,Mother Mother,Mother Mother,1309,Mother Mother,100.0
+329,Thomas Rhett,Thomas Rhett,1165,Thomas Rhett,100.0
+330,Jonas Brothers,Jonas Brothers,1374,Jonas Brothers,100.0
+331,EOTO,EOTO,1468,TOTO,75.0
+332,Chris Young,Chris Young,1441,Chris Young,100.0
+333,King Kong,King Kong,1106,King Von,75.0
+334,Luke Bryan,Luke Bryan,1128,Luke Bryan,100.0
+335,Beach House,Beach House,1420,Beach House,100.0
+336,Jan Smith,Jan Smith,1084,Sam Smith,77.77777777777779
+337,Pierce The Veil,Pierce The Veil,1498,Pierce The Veil,100.0
+338,Demi Lovato,Demi Lovato,1160,Demi Lovato,100.0
+339,Maren Morris,Maren Morris,1378,Maren Morris,100.0
+340,The Acorn,The Acorn,1494,The Score,77.77777777777779
+341,Florence + The Machine,Florence + The Machine,1246,Florence + The Machine,100.0
+342,Outpost,Outpost,1234,Outkast,71.42857142857143
+343,M.J. Cole,M.J. Cole,1024,J. Cole,71.42857142857143
+344,John Sebastian,John Sebastian,1345,Joan Sebastian,92.85714285714286
+345,Led Zeppelin 2,Led Zeppelin 2,1138,Led Zeppelin,83.33333333333334
+346,The Weeks,The Weeks,1003,The Weeknd,80.0
+347,Paul Collins,Paul Collins,1291,Phil Collins,83.33333333333334
+348,Charli XCX,Charli XCX,1481,Charli XCX,100.0
+349,Surface,Surface,1496,Surfaces,87.5
+350,Future,Future,1018,Future,100.0
+351,Ariana Grande,Ariana Grande,1023,Ariana Grande,100.0
+352,Hollows,Hollows,1419,Wallows,71.42857142857143
+353,Tyler Childers,Tyler Childers,1211,Tyler Childers,100.0
+354,James Arthur,James Arthur,1169,James Arthur,100.0
+355,Glass Animals,Glass Animals,1061,Glass Animals,100.0
+356,Cole Swindell,Cole Swindell,1364,Cole Swindell,100.0
+357,Shamir,Shamir,1227,Shakira,71.42857142857143
+358,The Beats,The Beats,1027,The Beatles,81.81818181818181
+359,The Smites,The Smites,1397,The Smiths,90.0
+360,Helena,Helena,1489,Selena,83.33333333333334
+361,The Same,The Same,1473,The Game,87.5
+362,Twain,Twain,1366,Train,80.0
+363,Lauv,Lauv,1222,Lauv,100.0
+364,Plan R,Plan R,1469,Plan B,83.33333333333334
+365,Daft Punk,Daft Punk,1324,Daft Punk,100.0
+366,Kora,Kora,1300,Korn,75.0
+367,Adele,Adele,1016,Adele,100.0
+368,Kate Nash,Kate Nash,1205,Kate Bush,77.77777777777779
+369,Lady Gaga,Lady Gaga,1053,Lady Gaga,100.0
+370,Lau,Lau,1222,Lauv,75.0
+371,The Honors,The Honors,1488,The Doors,77.77777777777779
+372,The Turn,The Turn,1461,The Cure,75.0
+373,Kacey Musgraves,Kacey Musgraves,1454,Kacey Musgraves,100.0
+374,99Sublime,99Sublime,1372,Sublime,71.42857142857143
+375,Clay,Clay,1230,CKay,75.0
+376,Bustin Jieber,Bustin Jieber,1014,Justin Bieber,84.61538461538461
+377,21 Savage,21 Savage,1348,21 Savage,100.0
+378,A Boogie Wit Da Hoodie,A Boogie Wit Da Hoodie,1083,A Boogie Wit da Hoodie,95.45454545454545
+379,Gideon,Gideon,1118,Giveon,83.33333333333334
+380,The Dales,The Dales,1142,The Eagles,80.0
+381,The Wooks,The Wooks,1488,The Doors,77.77777777777779
+382,Clairo,Clairo,1261,Clairo,100.0
+383,Key Glock,Key Glock,1194,Key Glock,100.0
+384,David Borne,David Borne,1283,David Bowie,81.81818181818181
+385,Geezer,Geezer,1262,Weezer,83.33333333333334
+386,The Gems,The Gems,1473,The Game,75.0
+387,The Mutineers,The Mutineers,1125,The Lumineers,84.61538461538461
+388,The Moons,The Moons,1488,The Doors,77.77777777777779
+389,Jon Hardy,Jon Hardy,1238,Jon Pardi,77.77777777777779
+390,Maroon 5,Maroon 5,1034,Maroon 5,100.0
+391,Bruno Mars,Bruno Mars,1031,Bruno Mars,100.0
+392,Mac Miller,Mac Miller,1040,Mac Miller,100.0
+393,One Direction,One Direction,1041,One Direction,100.0
+394,Florida Georgia Line,Florida Georgia Line,1208,Florida Georgia Line,100.0
+395,Andy Grammer,Andy Grammer,1491,Andy Grammer,100.0
+396,DJ Khaled,DJ Khaled,1224,DJ Khaled,100.0
+397,John Kaye,John Kaye,1143,John Mayer,80.0
+398,Jon Pardi,Jon Pardi,1238,Jon Pardi,100.0
+399,Chief Keef,Chief Keef,1298,Chief Keef,100.0
+400,Los Tucanes De Tijuana,Los Tucanes De Tijuana,1414,Los Tucanes De Tijuana,100.0
+401,Milky Chance,Milky Chance,1479,Milky Chance,100.0
+402,The Chainsmokers,The Chainsmokers,1217,The Chainsmokers,100.0
+403,Baby Bee,Baby Bee,1198,Baby Keem,77.77777777777779
+404,Rae Sremmurd,Rae Sremmurd,1427,Rae Sremmurd,100.0
+405,Calibre 50,Calibre 50,1183,Calibre 50,100.0
+406,Steve Laury,Steve Laury,1075,Steve Lacy,80.0
+407,Calum Scott,Calum Scott,1482,Calum Scott,100.0
+408,Wallows,Wallows,1419,Wallows,100.0
+409,Kali Uchis,Kali Uchis,1241,Kali Uchis,100.0
+410,Mark Miller,Mark Miller,1040,Mac Miller,80.0
+411,TORO,TORO,1468,TOTO,75.0
+412,Trippie Redd,Trippie Redd,1127,Trippie Redd,100.0
+413,Ella Mai,Ella Mai,1368,Ella Mai,100.0
+414,Dominic Fike,Dominic Fike,1459,Dominic Fike,100.0
+415,Surfaces,Surfaces,1496,Surfaces,100.0
+416,Tate McRae,Tate McRae,1100,Tate McRae,100.0
+417,Iann Dior,Iann Dior,1400,iann dior,77.77777777777779
+418,Rauw Alejandro,Rauw Alejandro,1096,Rauw Alejandro,100.0
+419,PNL,PNL,1450,PNL,100.0
+420,Don Toliver,Don Toliver,1226,Don Toliver,100.0
+421,Joji,Joji,1056,Joji,100.0
+422,Drain,Drain,1366,Train,80.0
+423,Mush,Mush,1282,Muse,75.0
+424,Sebastián Yatra,Sebastián Yatra,1206,Sebastian Yatra,93.33333333333333
+425,Khalil,Khalil,1105,Khalid,83.33333333333334
+426,Shakra,Shakra,1227,Shakira,85.71428571428572
+427,Yeat,Yeat,1047,Yeat,100.0
+428,The Belles,The Belles,1027,The Beatles,81.81818181818181
+429,Madrona,Madrona,1235,Madonna,71.42857142857143
+430,The Code,The Code,1461,The Cure,75.0
+431,Aventura,Aventura,1139,Aventura,100.0
+432,The Coots,The Coots,1488,The Doors,77.77777777777779
+433,The Whoors,The Whoors,1488,The Doors,77.77777777777779
+434,Anita,Anita,1342,Anitta,83.33333333333334
+435,David Bowee,David Bowee,1283,David Bowie,90.9090909090909
+436,Stoma,Stoma,1399,Stromae,71.42857142857143
+437,King Nun,King Nun,1106,King Von,75.0
+438,Crack Sabbath,Crack Sabbath,1471,Black Sabbath,84.61538461538461
+439,Summer Walker,Summer Walker,1181,Summer Walker,100.0
+440,Lana Del Rey,Lana Del Rey,1036,Lana Del Rey,100.0
+441,Little Mix,Little Mix,1250,Little Mix,100.0
+442,The Bane,The Bane,1473,The Game,75.0
+443,Whitey Houston,Whitey Houston,1296,Whitney Houston,93.33333333333333
+444,Jojo Mayer,Jojo Mayer,1143,John Mayer,80.0
+445,Crake,Crake,1002,Drake,80.0
+446,The Curse,The Curse,1461,The Cure,87.5
+447,Pink Froyd,Pink Froyd,1122,Pink Floyd,90.0
+448,The Walters,The Walters,1424,The Walters,100.0
+449,Alessia Cara,Alessia Cara,1431,Alessia Cara,100.0
+450,The Killers,The Killers,1182,The Killers,100.0
+451,Usher,Usher,1223,Usher,100.0
+452,Blake Shelton,Blake Shelton,1279,Blake Shelton,100.0
+453,Becky,Becky,1172,Becky G,71.42857142857143
+454,John Legend,John Legend,1357,John Legend,100.0
+455,Mopa,Mopa,1359,Mora,75.0
+456,Young Thug,Young Thug,1218,Young Thug,100.0
+457,Guns N Hoses,Guns N Hoses,1107,Guns N' Roses,84.61538461538461
+458,Mane,Mane,1351,Maná,75.0
+459,Big Baby,Big Baby,1042,Lil Baby,75.0
+460,Adam Smith,Adam Smith,1084,Sam Smith,77.77777777777779
+461,Jelly Roll,Jelly Roll,1484,Jelly Roll,100.0
+462,Shapiro,Shapiro,1227,Shakira,71.42857142857143
+463,Flo Rida,Flo Rida,1302,Flo Rida,100.0
+464,Kort,Kort,1300,Korn,75.0
+465,Bo Burnham,Bo Burnham,1340,Bo Burnham,100.0
+466,Foster The People,Foster The People,1439,Foster The People,100.0
+467,Jorge & Mateus,Jorge & Mateus,1316,Jorge & Mateus,100.0
+468,Al Jackson,Al Jackson,1288,Alan Jackson,83.33333333333334
+469,Twenty One Pilots,Twenty One Pilots,1070,Twenty One Pilots,100.0
+470,Frank Ocean,Frank Ocean,1048,Frank Ocean,100.0
+471,Mac DeMarco,Mac DeMarco,1216,Mac DeMarco,100.0
+472,Tyga,Tyga,1332,Tyga,100.0
+473,Joey Bada$$,Joey Bada$$,1447,Joey Bada$$,100.0
+474,The Strypes,The Strypes,1264,The Strokes,81.81818181818181
+475,The Shame,The Shame,1473,The Game,75.0
+476,Stromae,Stromae,1399,Stromae,100.0
+477,The Hollers,The Hollers,1182,The Killers,81.81818181818181
+478,Sam Smith,Sam Smith,1084,Sam Smith,100.0
+479,Jacob Johnson,Jacob Johnson,1204,Jack Johnson,83.33333333333334
+480,George Ezra,George Ezra,1336,George Ezra,100.0
+481,Big Dead,Big Dead,1333,Big Sean,75.0
+482,J Balvin,J Balvin,1367,J Balvin,100.0
+483,Tito Garcia,Tito Garcia,1343,Nio Garcia,80.0
+484,"Tyler, The Creator","Tyler, The Creator",1045,"Tyler, The Creator",100.0
+485,The Beach Dogs,The Beach Dogs,1371,The Beach Boys,85.71428571428572
+486,Jason Allen,Jason Allen,1094,Jason Aldean,83.33333333333334
+487,Jason Aldean,Jason Aldean,1094,Jason Aldean,100.0
+488,Arctic Monkeys,Arctic Monkeys,1051,Arctic Monkeys,100.0
+489,Ian Brown,Ian Brown,1177,Kane Brown,80.0
+490,The Cuts,The Cuts,1461,The Cure,75.0
+491,Mandonna,Mandonna,1235,Madonna,85.71428571428572
+492,The Bangles,The Bangles,1142,The Eagles,80.0
+493,Don Omar,Don Omar,1176,Don Omar,100.0
+494,Ice Cube,Ice Cube,1313,Ice Cube,100.0
+495,Stroke,Stroke,1399,Stromae,71.42857142857143
+496,Taylor Swift,Taylor Swift,1001,Taylor Swift,100.0
+497,Beyoncé,Beyoncé,1029,Beyoncé,100.0
+498,The Dodos,The Dodos,1488,The Doors,77.77777777777779
+499,Hank Sinatra,Hank Sinatra,1297,Frank Sinatra,84.61538461538461
+500,Lee Brice,Lee Brice,1258,Lee Brice,100.0
+501,Lil Wayne,Lil Wayne,1068,Lil Wayne,100.0
+502,The Spits,The Spits,1397,The Smiths,80.0
+503,Miley Cyrus,Miley Cyrus,1079,Miley Cyrus,100.0
+504,The Tams,The Tams,1473,The Game,75.0
+505,Walker Hayes,Walker Hayes,1317,Walker Hayes,100.0
+506,The Beauties,The Beauties,1027,The Beatles,81.81818181818181
+507,The Harters,The Harters,1424,The Walters,81.81818181818181
+508,Kesha,Kesha,1330,Kesha,100.0
+509,Melanie Martinez,Melanie Martinez,1102,Melanie Martinez,100.0
+510,Kane Brown,Kane Brown,1177,Kane Brown,100.0
+511,Oldominion,Oldominion,1405,Old Dominion,83.33333333333334
+512,The Strip,The Strip,1381,The Script,80.0
+513,The Gary,The Gary,1473,The Game,75.0
+514,Lil Baby,Lil Baby,1042,Lil Baby,100.0
+515,The Rolling Stoners,The Rolling Stoners,1131,The Rolling Stones,94.44444444444444
+516,Logic,Logic,1220,Logic,100.0
+517,Lordi,Lordi,1187,Lorde,80.0
+518,The Kooks,The Kooks,1488,The Doors,77.77777777777779
+519,The Police,The Police,1301,The Police,100.0
+520,The Race,The Race,1473,The Game,75.0
+521,Five Finger Death Punch,Five Finger Death Punch,1188,Five Finger Death Punch,100.0
+522,Rihanna,Rihanna,1020,Rihanna,100.0
+523,Mona,Mona,1359,Mora,75.0
+524,The Cush,The Cush,1461,The Cure,75.0
+525,Wiz Khalifa,Wiz Khalifa,1365,Wiz Khalifa,100.0
+526,Justin Bieber,Justin Bieber,1014,Justin Bieber,100.0
+527,Jason Derulo,Jason Derulo,1233,Jason Derulo,100.0
+528,J. Cole,J. Cole,1024,J. Cole,100.0
+529,Childish Gambino,Childish Gambino,1111,Childish Gambino,100.0
+530,The Cars,The Cars,1461,The Cure,75.0
+531,Avicii,Avicii,1124,Avicii,100.0
+532,Cody Johnson,Cody Johnson,1173,Cody Johnson,100.0
+533,Big Deal,Big Deal,1333,Big Sean,75.0
+534,A$AP Rocky,A$AP Rocky,1271,A$AP Rocky,100.0
+535,Red Not Chili Peppers,Red Not Chili Peppers,1050,Red Hot Chili Peppers,95.23809523809523
+536,Cardiac,Cardiac,1349,Cardi B,71.42857142857143
+537,Charlie Puth,Charlie Puth,1097,Charlie Puth,100.0
+538,Fooz Fighters,Fooz Fighters,1156,Foo Fighters,91.66666666666666
+539,The Fools,The Fools,1488,The Doors,77.77777777777779
+540,Dool,Dool,1434,Tool,75.0
+541,Fuerza Regida,Fuerza Regida,1321,Fuerza Regida,100.0
+542,Kevin Gates,Kevin Gates,1077,Kevin Gates,100.0
+543,Los Askis,Los Askis,1455,Los Bukis,77.77777777777779
+544,Ali Jackson,Ali Jackson,1288,Alan Jackson,83.33333333333334
+545,The Walkers,The Walkers,1424,The Walters,90.9090909090909
+546,Anya,Anya,1407,Enya,75.0
+547,Mae Muller,Mae Muller,1040,Mac Miller,80.0
+548,The Fire,The Fire,1461,The Cure,75.0
+549,Boywithuke,Boywithuke,1166,BoyWithUke,80.0
+550,Eslabon Armado,Eslabon Armado,1197,Eslabon Armado,100.0
+551,Dean Morrison,Dean Morrison,1395,Van Morrison,83.33333333333334
+552,Dan Smith,Dan Smith,1084,Sam Smith,77.77777777777779
+553,Claire,Claire,1261,Clairo,83.33333333333334
+554,Ze neto & Cristiano,Ze neto & Cristiano,1492,Zé Neto & Cristiano,89.47368421052632
+555,Nio Garcia,Nio Garcia,1343,Nio Garcia,100.0
+556,Jodi,Jodi,1056,Joji,75.0
+557,Slime,Slime,1372,Sublime,71.42857142857143
+558,Pink Voyd,Pink Voyd,1122,Pink Floyd,80.0
+559,Mark Johnson,Mark Johnson,1204,Jack Johnson,83.33333333333334
+560,Heptones,Heptones,1254,Deftones,75.0
+561,girl in red,girl in red,1219,girl in red,100.0
+562,Nic Garcia,Nic Garcia,1343,Nio Garcia,90.0
+563,The Scraps,The Scraps,1381,The Script,80.0
+564,Fred Zeppelin,Fred Zeppelin,1138,Led Zeppelin,83.33333333333334
+565,Sakura,Sakura,1227,Shakira,71.42857142857143
+566,The Rolling Zones,The Rolling Zones,1131,The Rolling Stones,88.88888888888889
+567,Gunz N Roses,Gunz N Roses,1107,Guns N' Roses,84.61538461538461
+568,Paundy,Paundy,1477,Vaundy,83.33333333333334
+569,Drakes,Drakes,1002,Drake,80.0
+570,Sam Smick,Sam Smick,1084,Sam Smith,77.77777777777779
+571,Gucci Mane,Gucci Mane,1325,Gucci Mane,100.0
+572,The Lumineers,The Lumineers,1125,The Lumineers,100.0
+573,Bastille,Bastille,1412,Bastille,100.0
+574,Labrinth,Labrinth,1136,Labrinth,100.0
+575,The Neighbourhood,The Neighbourhood,1044,The Neighbourhood,100.0
+576,Mano Brown,Mano Brown,1177,Kane Brown,80.0
+577,ITZY,ITZY,1401,ITZY,100.0
+578,Upchuck,Upchuck,1410,Upchurch,75.0
+579,Red Velvet,Red Velvet,1402,Red Velvet,100.0
+580,Becky G,Becky G,1172,Becky G,100.0
+581,Cardiel,Cardiel,1349,Cardi B,71.42857142857143
+582,Adelle,Adelle,1016,Adele,80.0
+583,Sam Hul,Sam Hul,1270,Sam Hunt,75.0
+584,Danny Kean,Danny Kean,1322,Danny Ocean,81.81818181818181
+585,Surfacer ,Surfacer ,1496,Surfaces,75.0
+586,Pool,Pool,1434,Tool,75.0
+587,The Smokes,The Smokes,1264,The Strokes,81.81818181818181
+588,Hallow,Hallow,1419,Wallows,71.42857142857143
+589,Johanna,Johanna,1020,Rihanna,71.42857142857143
+590,San Sebastian,San Sebastian,1345,Joan Sebastian,85.71428571428572
+591,Bizarre,Bizarre,1080,Bizarrap,75.0
+592,Kate Brown,Kate Brown,1177,Kane Brown,90.0
+593,Dire Straits,Dire Straits,1338,Dire Straits,100.0
+594,Deaf Leopard,Deaf Leopard,1467,Def Leppard,81.81818181818181
+595,Welly,Welly,1319,Nelly,80.0
+596,The Grams,The Grams,1473,The Game,75.0
+597,Cal Scott,Cal Scott,1482,Calum Scott,81.81818181818181
+598,Morga,Morga,1359,Mora,75.0
+599,The Doozers,The Doozers,1488,The Doors,77.77777777777779
+600,Journal,Journal,1196,Journey,71.42857142857143
+601,The Hur,The Hur,1461,The Cure,75.0
+602,The Crue,The Crue,1461,The Cure,75.0
+603,The Fave,The Fave,1473,The Game,75.0
+604,Junior X,Junior X,1203,Junior H,87.5
+605,Johnny Legend,Johnny Legend,1357,John Legend,81.81818181818181
+606,Gusttavo Lima,Gusttavo Lima,1239,Gusttavo Lima,100.0
+607,Tiga,Tiga,1332,Tyga,75.0
+608,Old Dominion,Old Dominion,1405,Old Dominion,100.0
+609,John Faye,John Faye,1143,John Mayer,80.0
+610,Zorn,Zorn,1300,Korn,75.0
+611,Black Sabbitch,Black Sabbitch,1471,Black Sabbath,84.61538461538461
+612,Post Malone,Post Malone,1015,Post Malone,100.0
+613,Ozuna,Ozuna,1115,Ozuna,100.0
+614,Tom Odell,Tom Odell,1344,Tom Odell,100.0
+615,Chris Baron,Chris Baron,1066,Chris Brown,81.81818181818181
+616,Lorde,Lorde,1187,Lorde,100.0
+617,Anitta,Anitta,1342,Anitta,100.0
+618,Farruko,Farruko,1244,Farruko,100.0
+619,Kate Bush,Kate Bush,1205,Kate Bush,100.0
+620,Tory Lanez,Tory Lanez,1150,Tory Lanez,100.0
+621,John Myers,John Myers,1143,John Mayer,80.0
+622,$uicideboy$,$uicideboy$,1033,$uicideboy$,100.0
+623,Alfredo Olivas,Alfredo Olivas,1483,Alfredo Olivas,100.0
+624,Rex Orange County,Rex Orange County,1133,Rex Orange County,100.0
+625,Weeze,Weeze,1262,Weezer,83.33333333333334
+626,Sam Hunt,Sam Hunt,1270,Sam Hunt,100.0
+627,Moa,Moa,1359,Mora,75.0
+628,Los Angeles Azules,Los Angeles Azules,1464,Los Ángeles Azules,94.44444444444444
+629,Tulum,Tulum,1499,Tulus,80.0
+630,Cavetown,Cavetown,1266,Cavetown,100.0
+631,Doja Cat,Doja Cat,1012,Doja Cat,100.0
+632,Dean Lewis,Dean Lewis,1350,Dean Lewis,100.0
+633,Callow,Callow,1419,Wallows,71.42857142857143
+634,Travis Scott,Travis Scott,1052,Travis Scott,100.0
+635,Chris Stapleton,Chris Stapleton,1076,Chris Stapleton,100.0
+636,Little May,Little May,1250,Little Mix,80.0
+637,Luke Combs,Luke Combs,1026,Luke Combs,100.0
+638,Troye Sivan ,Troye Sivan ,1363,Troye Sivan,90.9090909090909
+639,Dan + Shay,Dan + Shay,1287,Dan + Shay,100.0
+640,Madoca,Madoca,1235,Madonna,71.42857142857143
+641,Fleetwood Bac,Fleetwood Bac,1071,Fleetwood Mac,92.3076923076923
+642,Måneskin,Måneskin,1153,Måneskin,100.0
+643,Roddy Ricch,Roddy Ricch,1163,Roddy Ricch,100.0
+644,Brass Animals,Brass Animals,1061,Glass Animals,84.61538461538461
+645,Jhene Aiko,Jhene Aiko,1232,Jhené Aiko,90.0
+646,Playboi Carti,Playboi Carti,1073,Playboi Carti,100.0
+647,Little Big,Little Big,1250,Little Mix,80.0
+648,Maluma,Maluma,1174,Maluma,100.0
+649,The Dogs,The Dogs,1488,The Doors,77.77777777777779
+650,Ikon,Ikon,1257,Akon,75.0
+651,Zulus,Zulus,1499,Tulus,80.0
+652,Sleepy Hallow,Sleepy Hallow,1195,Sleepy Hallow,100.0
+653,Rels B,Rels B,1356,Rels B,100.0
+654,Belly,Belly,1319,Nelly,80.0
+655,Shawn Mendes,Shawn Mendes,1057,Shawn Mendes,100.0
+656,Lil Nas X,Lil Nas X,1086,Lil Nas X,100.0
+657,Junior H,Junior H,1203,Junior H,100.0
+658,Zach Ryan,Zach Ryan,1062,Zach Bryan,80.0
+659,Vicente Fernández,Vicente Fernández,1240,Vicente Fernández,100.0
+660,Jaymes Young,Jaymes Young,1320,Jaymes Young,100.0
+661,Morgan Wallen,Morgan Wallen,1013,Morgan Wallen,100.0
+662,Joyner Lucas,Joyner Lucas,1354,Joyner Lucas,100.0
+663,Lorded,Lorded,1187,Lorde,80.0
+664,Bad Bunny,Bad Bunny,1000,Bad Bunny,100.0
+665,El Fantasma,El Fantasma,1393,El Fantasma,100.0
+666,Burna Boy,Burna Boy,1121,Burna Boy,100.0
+667,Manuel Turizo,Manuel Turizo,1423,Manuel Turizo,100.0
+668,Cartel De Santa,Cartel De Santa,1358,Cartel De Santa,100.0
+669,The Hooks,The Hooks,1488,The Doors,77.77777777777779
+670,Michael Blackson,Michael Blackson,1060,Michael Jackson,86.66666666666667
+671,Conan Gray,Conan Gray,1091,Conan Gray,100.0
+672,Surfact,Surfact,1496,Surfaces,75.0
+673,The Besties,The Besties,1027,The Beatles,81.81818181818181
+674,Kodak Black,Kodak Black,1049,Kodak Black,100.0
+675,Paulo Londra,Paulo Londra,1253,Paulo Londra,100.0
+676,Lil Tracy,Lil Tracy,1093,Lil Tjay,75.0
+677,Ava Max,Ava Max,1207,Ava Max,100.0
+678,DaBaby,DaBaby,1090,DaBaby,100.0
+679,Jeremiah,Jeremiah,1470,Jeremih,85.71428571428572
+680,Rod Wave,Rod Wave,1028,Rod Wave,100.0
+681,Baby Keem,Baby Keem,1198,Baby Keem,100.0
+682,Eladio Carrión,Eladio Carrión,1214,Eladio Carrion,92.85714285714286
+683,Marca MP,Marca MP,1361,Marca MP,100.0
+684,Giveon,Giveon,1118,Giveon,100.0
+685,Juniore,Juniore,1203,Junior H,75.0
+686,Luis R Conriquez,Luis R Conriquez,1259,Luis R Conriquez,100.0
+687,Keshi,Keshi,1330,Kesha,80.0
+688,Danny Ocean,Danny Ocean,1322,Danny Ocean,100.0
+689,Kings Ov Leon,Kings Ov Leon,1312,Kings of Leon,84.61538461538461
+690,Kim Smith,Kim Smith,1084,Sam Smith,77.77777777777779
+691,Jay Wheeler,Jay Wheeler,1341,Jay Wheeler,100.0
+692,Ninho,Ninho,1295,Ninho,100.0
+693,ABBA,ABBA,1110,ABBA,100.0
+694,Kings Of Lyon,Kings Of Lyon,1312,Kings of Leon,84.61538461538461
+695,Tone Loc,Tone Loc,1462,Tove Lo,71.42857142857143
+696,D. Savage,D. Savage,1348,21 Savage,77.77777777777779
+697,Fleetwood Mask,Fleetwood Mask,1071,Fleetwood Mac,84.61538461538461
+698,The Wave,The Wave,1473,The Game,75.0
+699,The Moods,The Moods,1488,The Doors,77.77777777777779
+700,The Hurt,The Hurt,1461,The Cure,75.0
+701,The Shore,The Shore,1494,The Score,88.88888888888889
+702,Jelly,Jelly,1319,Nelly,80.0
+703,Kendrick Lamar,Kendrick Lamar,1019,Kendrick Lamar,100.0
+704,Jay Johnson,Jay Johnson,1204,Jack Johnson,83.33333333333334
+705,The Fuse,The Fuse,1461,The Cure,75.0
+706,The Hue,The Hue,1461,The Cure,75.0
+707,The Hoons,The Hoons,1488,The Doors,77.77777777777779
+708,Selena Gomez,Selena Gomez,1248,Selena Gomez,100.0
+709,Adventure,Adventure,1139,Aventura,75.0
+710,Maluca,Maluca,1174,Maluma,83.33333333333334
+711,Jason Gray,Jason Gray,1472,Jason Mraz,80.0
+712,Ted Bunny,Ted Bunny,1000,Bad Bunny,77.77777777777779
+713,Hool,Hool,1434,Tool,75.0
+714,The B-Eagles,The B-Eagles,1142,The Eagles,80.0
+715,The Storm,The Storm,1494,The Score,77.77777777777779
+716,Imagine Dragons,Imagine Dragons,1017,Imagine Dragons,100.0
+717,Big Sexy,Big Sexy,1333,Big Sean,75.0
+718,The Rooks,The Rooks,1488,The Doors,77.77777777777779
+719,Lil Uzi Vert,Lil Uzi Vert,1038,Lil Uzi Vert,100.0
+720,Follows,Follows,1419,Wallows,71.42857142857143
+721,Oasiz,Oasiz,1294,Oasis,80.0
+722,Doug Cameron,Doug Cameron,1465,Dove Cameron,83.33333333333334
+723,KC/DC,KC/DC,1064,AC/DC,80.0
+724,The Beetles,The Beetles,1027,The Beatles,90.9090909090909
+725,The Woods,The Woods,1488,The Doors,77.77777777777779
+726,Lil Durk,Lil Durk,1035,Lil Durk,100.0
+727,Camila Cabello,Camila Cabello,1101,Camila Cabello,100.0
+728,Parker McCollum,Parker McCollum,1460,Parker McCollum,100.0
+729,Sadonna,Sadonna,1235,Madonna,85.71428571428572
+730,The Fillers,The Fillers,1182,The Killers,90.9090909090909
+731,The Place,The Place,1301,The Police,80.0
+732,Farro,Farro,1244,Farruko,71.42857142857143
+733,Harry Styles,Harry Styles,1004,Harry Styles,100.0
+734,Mad Anthony,Mad Anthony,1370,Marc Anthony,83.33333333333334
+735,Maria Leon,Maria Leon,1307,Carin Leon,80.0
+736,The Kid LAROI,The Kid LAROI,1046,The Kid LAROI,100.0
+737,King Pin,King Pin,1106,King Von,75.0
+738,Kehlani,Kehlani,1299,Kehlani,100.0
+739,The Offering,The Offering,1255,The Offspring,84.61538461538461
+740,The Molice,The Molice,1301,The Police,90.0
+741,The Fade,The Fade,1473,The Game,75.0
+742,Musk,Musk,1282,Muse,75.0
+743,Johnny Nash,Johnny Nash,1285,Johnny Cash,90.9090909090909
+744,The Suits,The Suits,1397,The Smiths,80.0
+745,Morgan Davis,Morgan Davis,1284,Jordan Davis,83.33333333333334
+746,Alec Benjamin,Alec Benjamin,1199,Alec Benjamin,100.0
+747,D Savage,D Savage,1348,21 Savage,77.77777777777779
+748,Ozona,Ozona,1115,Ozuna,80.0
+749,Forn,Forn,1300,Korn,75.0
+750,Stray Kids,Stray Kids,1120,Stray Kids,100.0
+751,Central Cee,Central Cee,1236,Central Cee,100.0
+752,Bizarrap,Bizarrap,1080,Bizarrap,100.0
+753,NoCap,NoCap,1476,NoCap,100.0
+754,Lauren Spencer-Smith,Lauren Spencer-Smith,1304,Lauren Spencer-Smith,100.0
+755,Cray,Cray,1230,CKay,75.0
+756,The Kinleys,The Kinleys,1182,The Killers,81.81818181818181
+757,The Wake,The Wake,1473,The Game,75.0
+758,Must,Must,1282,Muse,75.0
+759,God Johnson,God Johnson,1173,Cody Johnson,83.33333333333334
+760,The Gaff,The Gaff,1473,The Game,75.0
+761,The Take,The Take,1473,The Game,75.0
+762,Skadonna,Skadonna,1235,Madonna,71.42857142857143
+763,Bonus,Bonus,1385,Bones,80.0
+764,Wuki,Wuki,1221,Duki,75.0
+765,Wordplay,Wordplay,1030,Coldplay,75.0
+766,Moma,Moma,1359,Mora,75.0
+767,The Kolors,The Kolors,1488,The Doors,77.77777777777779
+768,Pooh Shiesty,Pooh Shiesty,1249,Pooh Shiesty,100.0
+769,Tizzo,Tizzo,1108,Lizzo,80.0
+770,EST Gee,EST Gee,1416,EST Gee,100.0
+771,Cam Miller,Cam Miller,1040,Mac Miller,80.0
+772,The Ease,The Ease,1473,The Game,75.0
+773,Enra,Enra,1407,Enya,75.0
+774,The Fables,The Fables,1142,The Eagles,80.0
+775,These Beatles,These Beatles,1027,The Beatles,81.81818181818181
+776,Shamora,Shamora,1227,Shakira,71.42857142857143
+777,The Curses,The Curses,1461,The Cure,75.0
+778,Draken,Draken,1002,Drake,80.0
+779,Fleetwood Max,Fleetwood Max,1071,Fleetwood Mac,92.3076923076923
+780,Swallows,Swallows,1419,Wallows,71.42857142857143
+781,The Cut,The Cut,1461,The Cure,75.0
+782,The Fury,The Fury,1461,The Cure,75.0
+783,Jade Johnson,Jade Johnson,1204,Jack Johnson,83.33333333333334
+784,Motra,Motra,1359,Mora,75.0
+785,Kon,Kon,1300,Korn,75.0
+786,Milos,Milos,1201,Migos,80.0
+787,Bazzi,Bazzi,1303,Bazzi,100.0
+788,Ken Lewis,Ken Lewis,1350,Dean Lewis,80.0
+789,Defnotes,Defnotes,1254,Deftones,75.0
+790,The Palace,The Palace,1301,The Police,80.0
+791,Bailey Zimmerman,Bailey Zimmerman,1383,Bailey Zimmerman,100.0
+792,Mola,Mola,1359,Mora,75.0
+793,Oasish,Oasish,1294,Oasis,80.0
+794,Castillo,Castillo,1412,Bastille,75.0
+795,Queen,Queen,1039,Queen,100.0
+796,Pastilla,Pastilla,1412,Bastille,75.0
+797,Mary Miller,Mary Miller,1040,Mac Miller,80.0
+798,Yoji,Yoji,1056,Joji,75.0
+799,YABBA,YABBA,1110,ABBA,75.0
+800,Logics,Logics,1220,Logic,80.0
+801,Brain,Brain,1366,Train,80.0
+802,Strome,Strome,1399,Stromae,85.71428571428572
+803,Mara,Mara,1359,Mora,75.0
+804,The Stoves,The Stoves,1264,The Strokes,81.81818181818181
+805,Moha,Moha,1359,Mora,75.0
+806,The Molters,The Molters,1424,The Walters,81.81818181818181
+807,Sleepy Hollow,Sleepy Hollow,1195,Sleepy Hallow,92.3076923076923
+808,Dr. Crue,Dr. Crue,1147,Dr. Dre,71.42857142857143
+809,Adonna,Adonna,1235,Madonna,71.42857142857143
+810,Lil Gray,Lil Gray,1093,Lil Tjay,75.0
+811,Elton Joel,Elton Joel,1099,Elton John,80.0
+812,Laberinto,Laberinto,1136,Labrinth,75.0
+813,Tama Impala,Tama Impala,1113,Tame Impala,90.9090909090909
+814,Grain,Grain,1366,Train,80.0
+815,Kore,Kore,1300,Korn,75.0
+816,Jack Parow,Jack Parow,1032,Jack Harlow,81.81818181818181
+817,The Haters,The Haters,1424,The Walters,81.81818181818181
+818,Kane West,Kane West,1005,Kanye West,90.0
+819,The Carters,The Carters,1424,The Walters,81.81818181818181
+820,The Foons,The Foons,1488,The Doors,77.77777777777779
+821,The Taters,The Taters,1424,The Walters,81.81818181818181
+822,The Graze,The Graze,1473,The Game,75.0
+823,John Gabriel,John Gabriel,1466,Juan Gabriel,83.33333333333334
+824,Keysha,Keysha,1330,Kesha,80.0
+825,The Haze,The Haze,1473,The Game,75.0
+826,The Weakend,The Weakend,1003,The Weeknd,80.0
+827,Melena,Melena,1489,Selena,83.33333333333334
+828,Beyondo,Beyondo,1029,Beyoncé,71.42857142857143
+829,Russo,Russo,1137,Russ,75.0
+830,The Sloths,The Sloths,1397,The Smiths,80.0
+831,Madonnica,Madonnica,1235,Madonna,71.42857142857143
+832,Mother 2 Mother,Mother 2 Mother,1309,Mother Mother,84.61538461538461
+833,Novana,Novana,1065,Nirvana,71.42857142857143
+834,The Cry,The Cry,1461,The Cure,75.0
+835,Jeremy,Jeremy,1470,Jeremih,71.42857142857143
+836,The Tillers,The Tillers,1182,The Killers,90.9090909090909
+837,Migos,Migos,1201,Migos,100.0
+838,The Daze,The Daze,1473,The Game,75.0
+839,Johnny Trash,Johnny Trash,1285,Johnny Cash,81.81818181818181
+840,Nones,Nones,1385,Bones,80.0
+841,Lil Pump,Lil Pump,1082,Lil Peep,75.0
+842,Cigarettes After Sex,Cigarettes After Sex,1154,Cigarettes After Sex,100.0
+843,Ski Mask The Slump God,Ski Mask The Slump God,1394,Ski Mask The Slump God,100.0
+844,Migas,Migas,1201,Migos,80.0
+845,Brent Faiyaz,Brent Faiyaz,1092,Brent Faiyaz,100.0
+846,NLE Choppa,NLE Choppa,1123,NLE Choppa,100.0
+847,Junior,Junior,1203,Junior H,75.0
+848,Elton Rohn,Elton Rohn,1099,Elton John,90.0
+849,Megan Thee Stallion,Megan Thee Stallion,1088,Megan Thee Stallion,100.0
+850,Blxst,Blxst,1463,Blxst,100.0
+851,Dove Cameron,Dove Cameron,1465,Dove Cameron,100.0
+852,Lil Bibby,Lil Bibby,1042,Lil Baby,75.0
+853,The Mohrs,The Mohrs,1488,The Doors,77.77777777777779
+854,King Los,King Los,1106,King Von,75.0
+855,Van Holzen,Van Holzen,1346,Van Halen,77.77777777777779
+856,Cones,Cones,1385,Bones,80.0
+857,The Sighs,The Sighs,1397,The Smiths,80.0
+858,CKay,CKay,1230,CKay,100.0
+859,Black Debbath,Black Debbath,1471,Black Sabbath,84.61538461538461
+860,Mára,Mára,1359,Mora,75.0
+861,Back Stabbath,Back Stabbath,1471,Black Sabbath,84.61538461538461
+862,Big Sant,Big Sant,1333,Big Sean,75.0
+863,The Hoods,The Hoods,1488,The Doors,77.77777777777779
+864,The Boars,The Boars,1488,The Doors,77.77777777777779
+865,David Bowick,David Bowick,1283,David Bowie,81.81818181818181
+866,The Ladles,The Ladles,1142,The Eagles,80.0
+867,Lauren Spencer Smith,Lauren Spencer Smith,1304,Lauren Spencer-Smith,95.0
+868,Anirudh Ravichander,Anirudh Ravichander,1445,Anirudh Ravichander,100.0
+869,Crank Sanatra,Crank Sanatra,1297,Frank Sinatra,84.61538461538461
+870,Born,Born,1300,Korn,75.0
+871,Little My,Little My,1250,Little Mix,80.0
+872,Dr. Joe,Dr. Joe,1147,Dr. Dre,71.42857142857143
+873,The Watters,The Watters,1424,The Walters,90.9090909090909
+874,The Goons,The Goons,1488,The Doors,77.77777777777779
+875,The Strydes,The Strydes,1264,The Strokes,81.81818181818181
+876,Moke Cameron,Moke Cameron,1465,Dove Cameron,83.33333333333334
+877,Ken Block,Ken Block,1194,Key Glock,77.77777777777779
+878,Grupo Firme,Grupo Firme,1132,Grupo Firme,100.0
+879,Baustelle,Baustelle,1412,Bastille,75.0
+880,The Cause,The Cause,1461,The Cure,75.0
+881,BTS,BTS,1006,BTS,100.0
+882,Youngboy Never Broke Again,Youngboy Never Broke Again,1009,YoungBoy Never Broke Again,96.15384615384616
+883,The Cauze,The Cauze,1461,The Cure,75.0
+884,Bryan Abrams,Bryan Abrams,1352,Bryan Adams,81.81818181818181
+885,The Dowry,The Dowry,1488,The Doors,77.77777777777779
+886,Shakka,Shakka,1227,Shakira,71.42857142857143
+887,Gary Anthony,Gary Anthony,1370,Marc Anthony,83.33333333333334
+888,Gunn,Gunn,1054,Gunna,80.0
+889,Jane Johnson,Jane Johnson,1204,Jack Johnson,83.33333333333334
+890,Cris MJ,Cris MJ,1418,Cris Mj,85.71428571428572
+891,The Wanteds,The Wanteds,1424,The Walters,81.81818181818181
+892,Sweetie,Sweetie,1475,Saweetie,87.5
+893,Man,Man,1351,Maná,75.0
+894,Tallows,Tallows,1419,Wallows,85.71428571428572
+895,B. Cole,B. Cole,1024,J. Cole,85.71428571428572
+896,Los Timerarios,Los Timerarios,1329,Los Temerarios,92.85714285714286
+897,Scorpios,Scorpios,1497,Scorpions,88.88888888888889
+898,The Stakes,The Stakes,1264,The Strokes,81.81818181818181
+899,Sam Morrison,Sam Morrison,1395,Van Morrison,83.33333333333334
+900,The Strike,The Strike,1264,The Strokes,81.81818181818181
+901,The Poor,The Poor,1488,The Doors,77.77777777777779
+902,Lewis Capaldi,Lewis Capaldi,1126,Lewis Capaldi,100.0
+903,No Cap,No Cap,1476,NoCap,80.0
+904,The Doers,The Doers,1488,The Doors,88.88888888888889
+905,Slack Babbath,Slack Babbath,1471,Black Sabbath,84.61538461538461
+906,Moyra,Moyra,1359,Mora,75.0
+907,Lady Bunny,Lady Bunny,1000,Bad Bunny,77.77777777777779
+908,The Outre,The Outre,1461,The Cure,75.0
+909,Neid,Neid,1263,Feid,75.0
+910,Jul,Jul,1275,Jul,100.0
+911,Pop Smoke,Pop Smoke,1025,Pop Smoke,100.0
+912,Delly,Delly,1319,Nelly,80.0
+913,Morad,Morad,1359,Mora,75.0
+914,Bee Gees,Bee Gees,1231,Bee Gees,100.0
+915,Michael Jackson,Michael Jackson,1060,Michael Jackson,100.0
+916,The Stript,The Stript,1381,The Script,90.0
+917,Dr. Draw,Dr. Draw,1147,Dr. Dre,71.42857142857143
+918,Wag Halen,Wag Halen,1346,Van Halen,77.77777777777779
+919,Gallops,Gallops,1419,Wallows,71.42857142857143
+920,The Woofs,The Woofs,1488,The Doors,77.77777777777779
+921,Ian Smith,Ian Smith,1084,Sam Smith,77.77777777777779
+922,King God,King God,1106,King Von,75.0
+923,The Shores,The Shores,1494,The Score,77.77777777777779
+924,Chris Long,Chris Long,1441,Chris Young,81.81818181818181
+925,The Woo's,The Woo's,1488,The Doors,77.77777777777779
+926,AP Dhillon,AP Dhillon,1339,AP Dhillon,100.0
+927,Ryan Lewis,Ryan Lewis,1350,Dean Lewis,80.0
+928,Plan 4,Plan 4,1469,Plan B,83.33333333333334
+929,Blist,Blist,1463,Blxst,80.0
+930,The Case,The Case,1461,The Cure,75.0
+931,Koan,Koan,1300,Korn,75.0
+932,The Dolls,The Dolls,1488,The Doors,77.77777777777779
+933,The Cope,The Cope,1461,The Cure,75.0

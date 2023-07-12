@@ -122,20 +122,20 @@ def get_best(trie, name, max_count):
     return best, len(results)
 
 
-def read_it_in():
+def read_it_in(entity_type):
     print('read_it_in')
-    file_name = "actor_full.csv"
+    file_name = f"{entity_type}_short_500.csv"
     # file_name = "actor_short.csv"
     df = pd.read_csv(file_name)
     print(df)
 
-    external_file = "external_actor.csv"
+    external_file = f"external_{entity_type}.csv"
     ext_df = pd.read_csv(external_file)
 
     return df, ext_df
 
 
-def fuzzy_match(ontology_df, external_df):
+def fuzzy_match(ontology_df, external_df, max_diff):
     words = ontology_df['name'].tolist()
     keys = ontology_df['entity_id'].tolist()
     values = [item for item in zip(keys, words)]
@@ -152,45 +152,48 @@ def fuzzy_match(ontology_df, external_df):
     matches = 0
     mapped_entity = {}
     for ext_name, ext_id in external_values:
-        best, num_results = get_best(trie, ext_name, 3)
+        best, num_results = get_best(trie, ext_name, max_diff)
         sum_results += num_results
         count += 1
         new_row = {'external_id': ext_id,
                    'external_name': ext_name,
                    }
-        if best is not None:
+        if best is not None and best[3] >= 70:
             matches += 1
             new_row['entity_id'] = best[0]
             new_row['name'] = best[1]
             new_row['confidence'] = best[3]
             mapped_entity[new_row['entity_id']] = True
-        else:
-            new_row['entity_id'] = None
-            new_row['name'] = None
-            new_row['confidence'] = 0
-        results.append(new_row)
+            results.append(new_row)
+        # else:
+        #     new_row['entity_id'] = None
+        #     new_row['name'] = None
+        #     new_row['confidence'] = 0
+
         if count % 100 == 0:
             print(f'[{count}] best: {ext_name}, {best}, {num_results}')
-        if count > 3000:
-            break
+        # if count > 3000:
+        #     break
     avg_results = sum_results / len(ext_names)
     end = time.time()
 
     total_time = end - start
     print(f'total_time = {total_time}')
     print(f'total entries: {len(ext_names)}')
+    print(f'results: {len(results)}')
+    print(f'matches: {matches}')
     print(f'average results = {avg_results}')
     print(f'percent matches = {matches / count}')
 
-    for id, name in values:
-        if id not in mapped_entity.keys():
-            extra_row = {'entity_id': id,
-                         'name': name,
-                         'confidence': 0,
-                         'external_id': None,
-                         'external_name': None,
-                         }
-            results.append(extra_row)
+    # for id, name in values:
+    #     if id not in mapped_entity.keys():
+    #         extra_row = {'entity_id': id,
+    #                      'name': name,
+    #                      'confidence': 0,
+    #                      'external_id': None,
+    #                      'external_name': None,
+    #                      }
+    #         results.append(extra_row)
     # for row in results:
     #     print(f'row = {row}')
     return results
@@ -198,8 +201,13 @@ def fuzzy_match(ontology_df, external_df):
 
 def main():
     print('main')
-    ontology_df, external_df = read_it_in()
-    results = fuzzy_match(ontology_df, external_df)
+    entity_types = ['actor', 'brand', 'artist']
+    for entity in entity_types:
+        ontology_df, external_df = read_it_in(entity)
+        results = fuzzy_match(ontology_df, external_df, 2)
+        df = pd.DataFrame(results)
+        df.to_csv(f'mapped_{entity}.csv')
+        # break
 
 
 if __name__ == "__main__":
